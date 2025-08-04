@@ -9,4 +9,10 @@ console.log('Hello TypeScript');
 // ! 1. 타입을 정하는 법
 let size = 100;
 size = 105;
+// ! 2. 기본형
+let itemName = '블랙 후드';
+let itemPrice = 129000;
+let membersOnly = true;
+let owner = undefined;
+let seller = null;
 //# sourceMappingURL=main.js.map
