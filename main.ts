@@ -21,3 +21,22 @@ let itemPrice: number = 129000;
 let membersOnly: boolean = true;
 let owner: undefined = undefined;
 let seller: null = null;
+
+
+// ! 3. 배열과 튜플
+
+// ? (1) 배열
+const cart: string[] = [];
+cart.push('c001');
+cart.push('c002');
+
+const carts: string[][] = [
+    ['c001', 'c002'],
+    ['c003'],
+];
+
+// ? (2) 튜플
+let mySize: [number, number] = [167, 28];
+let mySize_02: [number, number, string] = [167, 28, 'M'];
+
+
