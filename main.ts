@@ -40,3 +40,27 @@ let mySize: [number, number] = [167, 28];
 let mySize_02: [number, number, string] = [167, 28, 'M'];
 
 
+// ! 4. 객체 타입
+let product: {
+    id: string;
+    name: string;
+    price: number;
+    membersOnly?: boolean;
+    // * 옵셔널 프로퍼티
+    sizes: string[];
+} = {
+    id: 'c001',
+    name: '블랙 후디',
+    price: 129000,
+    membersOnly: true,
+    sizes: ['M', 'L', 'XL'],
+};
+
+// ? 프로퍼티 이름에 변수 사용 시:
+let stock: {
+    [id: string]: number;
+} = {
+    c001: 3,
+    c002: 0,
+    c004: 1,
+};

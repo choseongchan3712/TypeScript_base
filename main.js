@@ -15,4 +15,30 @@ let itemPrice = 129000;
 let membersOnly = true;
 let owner = undefined;
 let seller = null;
+// ! 3. 배열과 튜플
+// ? (1) 배열
+const cart = [];
+cart.push('c001');
+cart.push('c002');
+const carts = [
+    ['c001', 'c002'],
+    ['c003'],
+];
+// ? (2) 튜플
+let mySize = [167, 28];
+let mySize_02 = [167, 28, 'M'];
+// ! 4. 객체 타입
+let product = {
+    id: 'c001',
+    name: '블랙 후디',
+    price: 129000,
+    membersOnly: true,
+    sizes: ['M', 'L', 'XL'],
+};
+// ? 프로퍼티 이름에 변수 사용 시:
+let stock = {
+    c001: 3,
+    c002: 0,
+    c004: 1,
+};
 //# sourceMappingURL=main.js.map
