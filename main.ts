@@ -9,3 +9,7 @@
 // ? npm start 를 실행하기 위해: "start":"node main.js"
 
 console.log('Hello TypeScript')
+
+// ! 1. 타입을 정하는 법
+let size: number = 100;
+size = 105;
