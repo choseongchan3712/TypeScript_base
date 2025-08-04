@@ -1,0 +1,25 @@
+# 패키지 폴더
+node_modules/
+
+# 환경 변수
+.env
+.env.* 
+
+# 빌드 결과
+dist/
+build/
+
+# 로그
+*.log
+
+# 테스트 결과
+coverage/
+
+# 시스템 / IDE 파일
+.DS_Store
+.vscode/
+.idea/
+
+# 임시 백업 파일
+*.bak
+*.tmp
