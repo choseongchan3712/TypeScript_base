@@ -48,4 +48,18 @@ const product_01 = {
     price: 129000,
     sizes: ['M', 'L', 'XL'],
 };
+// ! 6. Enum 열거형
+var Size;
+(function (Size) {
+    Size["S"] = "S";
+    Size["M"] = "M";
+    Size["L"] = "L";
+    Size["XL"] = "XL";
+})(Size || (Size = {}));
+let product_02 = {
+    id: 'c001',
+    name: '코드잇 블랙 후디',
+    price: 129000,
+    sizes: [Size.M, Size.L],
+};
 //# sourceMappingURL=main.js.map

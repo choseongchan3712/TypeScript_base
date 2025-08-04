@@ -84,3 +84,26 @@ const product_01: any = {
     sizes: ['M', 'L', 'XL'],
 };
 
+
+
+// ! 6. Enum 열거형
+
+enum Size {
+    S = 'S',
+    M = 'M',
+    L = 'L',
+    XL = 'XL',
+}
+
+let product_02: {
+  id: string;
+  name: string;
+  price: number;
+  membersOnly?: boolean;
+  sizes: Size[];
+} = {
+  id: 'c001',
+  name: '코드잇 블랙 후디',
+  price: 129000,
+  sizes: [Size.M, Size.L],
+};
