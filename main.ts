@@ -72,3 +72,15 @@ let stock: {
     c002: 0,
     c004: 1,
 };
+
+
+
+// ! 5. any
+
+const product_01: any = {
+    id: 'c001',
+    name: '블랙 후디',
+    price: 129000,
+    sizes: ['M', 'L', 'XL'],
+};
+
